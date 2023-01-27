@@ -1,0 +1,33 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    max-width: fit-content;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#linha2 {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.cabecalho {
+    align-self: stretch;
+    border: solid black;
+}
+
+.navegacao {
+    align-self: stretch;
+    border: solid black;
+}
+
+.corpo {
+    align-self: stretch;
+    border: solid black;
+    width: 400px;
+    height: 400px;
+}
